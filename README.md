@@ -1,16 +1,41 @@
-# React + Vite
+# OumaTech - Portfolio 3D
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site vitrine immersif pour OumaTech, agence IT spécialisée en développement, cloud, IA et cybersécurité.
 
-Currently, two official plugins are available:
+Built with React, Three.js (React Three Fiber), and Framer Motion.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Stack
 
-## React Compiler
+- **React** + **Vite**
+- **Three.js** + **@react-three/fiber** + **@react-three/drei** – 3D scene with scroll-driven camera
+- **Framer Motion** – scroll animations & glass morphism UI
+- **Vercel** – deployment
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- 3D spatial scene with floating tech objects, neural network particles, ambient rings
+- Scroll-driven camera movement through Z-space
+- Real 3D project previews (brain, cloud, eye, sphere, shield, nodes)
+- Glass morphism sections with scroll-triggered animations
+- Responsive design with mobile optimizations
+- Custom 3D cursor (disabled on touch devices)
+- Loading screen + scroll progress bar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Deployment
+
+Auto-deployed to Vercel from `main` branch.
+
+https://oumatech.vercel.app
